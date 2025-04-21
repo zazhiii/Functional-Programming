@@ -1,3 +1,5 @@
+package C02_Method_References;
+
 import java.io.File;
 import java.util.List;
 import java.util.function.BiPredicate;

@@ -1,3 +1,5 @@
+package C02_Method_References;
+
 import java.util.stream.Stream;
 
 /**
@@ -36,11 +38,11 @@ public class MethodRef {
 
 //        stream.forEach(s -> System.out.println(s));
         // 方法引用 -- 等价于上面的Lambda表达式
-//        stream.forEach(MethodRef::printStudent);
+//        stream.forEach(C02_Method_References.MethodRef::printStudent);
 
-//        stream.filter(s -> s.gender.equals("男")).forEach(MethodRef::printStudent);
+//        stream.filter(s -> s.gender.equals("男")).forEach(C02_Method_References.MethodRef::printStudent);
         // 静态方法引用
-//        stream.filter(MethodRef::isMale).forEach(MethodRef::printStudent);
+//        stream.filter(C02_Method_References.MethodRef::isMale).forEach(C02_Method_References.MethodRef::printStudent);
 
         // 类::实例方法
 //        stream.filter(Student::isMale).forEach(Student::printStudent);

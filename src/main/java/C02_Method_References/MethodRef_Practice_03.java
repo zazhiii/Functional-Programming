@@ -1,3 +1,5 @@
+package C02_Method_References;
+
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -38,7 +40,7 @@ public class MethodRef_Practice_03 {
         // 传入参数时，分别用
         // * 类名::静态方法名
         // * 类名::非静态方法名
-//        highOrder(MethodRef_Practice_03::isAdult);
+//        highOrder(C02_Method_References.MethodRef_Practice_03::isAdult);
         highOrder(Student::isAdult);
     }
 

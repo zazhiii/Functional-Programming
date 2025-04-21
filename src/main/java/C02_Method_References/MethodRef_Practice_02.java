@@ -1,3 +1,5 @@
+package C02_Method_References;
+
 /**
  * @author zazhi
  * @date 2025/4/20
